@@ -1,26 +1,25 @@
 # Quad AI Resume Reviewer
 
-A beginner-friendly Quad AI project using 4 collaborating agents built with CrewAI.
+A beginner-friendly Quad AI project using 4 collaborating agents built with CrewAI and Streamlit.
 
-## What this project does
+## Features
 
-This project takes:
-- a resume
-- a job description
-
-Then 4 AI agents work in sequence:
-
-1. Planner Agent
-2. Resume Analyzer Agent
-3. Resume Improver Agent
-4. Final Reviewer Agent
+- 4-agent workflow
+  - Planner Agent
+  - Resume Analyzer Agent
+  - Resume Improver Agent
+  - Final Reviewer Agent
+- Streamlit web UI
+- Terminal version also available
+- Downloadable analysis output
 
 ## Tech Stack
 
 - Python
 - CrewAI
 - OpenAI API
-- dotenv
+- Streamlit
+- python-dotenv
 
 ## Project Structure
 
@@ -29,8 +28,10 @@ quad-ai-resume-reviewer/
 ├── app.py
 ├── agents.py
 ├── tasks.py
+├── streamlit_app.py
 ├── requirements.txt
 ├── .env.example
+├── .gitignore
 ├── README.md
 └── sample_data/
     ├── sample_resume.txt

@@ -17,9 +17,7 @@ Your output must include:
 4. Expected experience level
 5. Suggested evaluation checklist (5 to 10 points)
 """,
-        expected_output=(
-            "A structured hiring checklist with required skills, preferred skills, keywords, and evaluation points."
-        ),
+        expected_output="A structured hiring checklist with required skills, preferred skills, keywords, and evaluation points.",
         agent=planner_agent
     )
 
@@ -36,9 +34,7 @@ You must:
 3. Point out weak sections
 4. Explain how well the resume matches the target job
 """,
-        expected_output=(
-            "A gap analysis showing strengths, weaknesses, missing keywords, and match quality."
-        ),
+        expected_output="A gap analysis showing strengths, weaknesses, missing keywords, and match quality.",
         agent=analyzer_agent
     )
 
@@ -55,9 +51,7 @@ Requirements:
 3. Keep improvements realistic
 4. Do not invent fake experience
 """,
-        expected_output=(
-            "Improved resume bullet points and practical suggestions for stronger ATS alignment."
-        ),
+        expected_output="Improved resume bullet points and practical suggestions for stronger ATS alignment.",
         agent=improver_agent
     )
 
@@ -71,9 +65,7 @@ Provide:
 3. Top 5 next actions for the candidate
 4. Final hiring fit level: Strong Fit / Moderate Fit / Weak Fit
 """,
-        expected_output=(
-            "A final score, summary, next-step recommendations, and hiring fit level."
-        ),
+        expected_output="A final score, summary, next-step recommendations, and hiring fit level.",
         agent=reviewer_agent
     )
 
