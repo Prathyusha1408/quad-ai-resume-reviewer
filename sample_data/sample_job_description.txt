@@ -1,0 +1,16 @@
+We are looking for an AI Engineer with experience in Python, LLM applications, prompt engineering, REST APIs, and cloud deployment. The ideal candidate has worked on retrieval-augmented generation (RAG), semantic search, and production AI systems.
+
+Required Skills:
+- Python
+- REST APIs
+- LLM application development
+- Prompt engineering
+- Cloud deployment
+- SQL
+
+Preferred Skills:
+- FastAPI
+- AWS
+- Semantic search
+- Vector databases
+- Evaluation frameworks

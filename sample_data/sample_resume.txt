@@ -1,0 +1,14 @@
+Prathyusha Grandhi
+
+Summary:
+AI Engineer with experience in Generative AI, NLP, RAG systems, REST APIs, and Python development. Built AI-powered applications using OpenAI, Gemini, FastAPI, Streamlit, and cloud services.
+
+Experience:
+- Built AI applications for document analysis and conversational workflows
+- Developed REST APIs using FastAPI
+- Worked on semantic search, document indexing, and grounding responses
+- Built automation workflows that reduced manual processing time
+- Used Python, SQL, and cloud technologies in production-style projects
+
+Skills:
+Python, FastAPI, Streamlit, OpenAI, Gemini, REST APIs, SQL, NLP, RAG, AWS
