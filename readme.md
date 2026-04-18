@@ -1,38 +1,59 @@
 # Quad AI Resume Reviewer
 
-A beginner-friendly Quad AI project using 4 collaborating agents built with CrewAI and Streamlit.
+This project is a multi-agent AI system that analyzes and improves resumes using a coordinated workflow of specialized agents.
+
+It demonstrates how multiple AI agents can collaborate to solve a real-world problem: improving resume quality based on job descriptions.
 
 ## Features
 
-- 4-agent workflow
-  - Planner Agent
-  - Resume Analyzer Agent
-  - Resume Improver Agent
-  - Final Reviewer Agent
-- Streamlit web UI
-- Terminal version also available
-- Downloadable analysis output
+- Multi-agent workflow using CrewAI
+- Resume analysis and feedback generation
+- Resume improvement suggestions based on job requirements
+- Final review and validation
+- Streamlit-based interactive UI
+- Terminal-based execution support
+- Downloadable output reports
+## How It Works (Agent Workflow)
+
+The system uses 4 agents working sequentially:
+1. Planner Agent  
+   - Understands the task and defines the workflow
+2. Resume Analyzer Agent  
+   - Extracts key information from the resume  
+   - Identifies missing skills and weaknesses  
+3. Resume Improver Agent  
+   - Suggests improvements based on job description  
+   - Enhances content quality  
+4. Final Reviewer Agent  
+   - Validates output  
+   - Ensures clarity and completeness  
+Each agent passes its output to the next, forming a pipeline.
 
 ## Tech Stack
 
-- Python
-- CrewAI
-- OpenAI API
-- Streamlit
-- python-dotenv
+- Python (core logic)
+- CrewAI (multi-agent orchestration)
+- OpenAI API (LLM processing)
+- Streamlit (UI)
+- python-dotenv (environment management)
 
-## Project Structure
+## Challenges Faced
 
-```text
-quad-ai-resume-reviewer/
-├── app.py
-├── agents.py
-├── tasks.py
-├── streamlit_app.py
-├── requirements.txt
-├── .env.example
-├── .gitignore
-├── README.md
-└── sample_data/
-    ├── sample_resume.txt
-    └── sample_job_description.txt
+- Designing agent interaction flow
+- Handling unstructured resume text
+- Ensuring meaningful AI-generated feedback
+
+## Future Improvements
+
+- Add scoring system for resumes
+- Integrate job-role matching
+- Store results in a database
+- Improve UI/UX
+
+## How to Run
+
+1. Clone the repository
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
